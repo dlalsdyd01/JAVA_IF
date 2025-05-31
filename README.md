@@ -109,4 +109,8 @@ switch (num) {
 ```
 
 break는 해당 case 실행 후 switch문을 종료하고 빠져나가게 한다.  
-break가 없으면 그 다음 case들도 계속해서 실행된다.
+break가 없으면 그 다음 case들도 계속해서 실행된다.  
+
+
+else if는 복잡한 조건이나 범위를 비교할 때 적합  
+switch case는 변수 값이 많고 명확한 경우 가독성이 좋음  
