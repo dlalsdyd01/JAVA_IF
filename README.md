@@ -76,3 +76,37 @@ if (score >= 90) {
     System.out.println("F등급");
 }
 ```
+
+# Switch Case  
+
+```
+switch (변수) {
+    case 값1:
+        // 변수 == 값1 일 때 실행 코드
+        break;
+    case 값2:
+        // 변수 == 값2 일 때 실행 코드
+        break;
+    ...
+    default:
+        // 모든 case에 해당하지 않을 때 실행
+}
+```
+예제  
+```
+int num = 2;
+
+switch (num) {
+    case 1:
+        System.out.println("하나");
+        break;
+    case 2:
+        System.out.println("둘");
+        break;
+    default:
+        System.out.println("그 외 숫자");
+}
+```
+
+break는 해당 case 실행 후 switch문을 종료하고 빠져나가게 한다.  
+break가 없으면 그 다음 case들도 계속해서 실행된다.
